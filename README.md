@@ -1,6 +1,14 @@
 # 基于MicroPython编写的自平衡小车
 
-首先第一个版本是使用mpy官方开发板pyboard，后续再逐渐改进8.
+### 一、控制板
 
-todo：测试一下L298N性能是否达标以及pyboard定时器输入捕获功能。
+使用官方pyboardV1.1作为控制板。MP6050采集加速度数据。
+
+<img src="images/pyboard.jpg" alt="pyboard" style="zoom:50%;" />
+
+### 二、车模
+
+使用平衡小车之家的车模，电机是1：30霍尔编码器减速电机，车轮转一圈编码器输出脉冲数为13x30。
+
+<img src="images/minibalancecar.jpg" alt="minibalancecar" style="zoom:50%;" />
 
