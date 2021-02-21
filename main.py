@@ -63,8 +63,8 @@ Velocity_Ki = 10
 Velocity_Kd = 0
 '''
 Velocity_Kp = -5
-Velocity_Ki = 0
-Velocity_Kd = 0
+Velocity_Ki = -0.001
+Velocity_Kd = 5
 bias_Integral = 0
 bias = 0
 last_bias = 0
